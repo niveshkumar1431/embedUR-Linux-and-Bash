@@ -1,0 +1,7 @@
+nivesh@nivesh-VirtualBox:~/assignment_1$ touch file1.txt
+nivesh@nivesh-VirtualBox:~/assignment_1$ ls -l file1.txt
+-rw-rw-r-- 1 nivesh nivesh 0 Jan 29 21:20 file1.txt
+nivesh@nivesh-VirtualBox:~/assignment_1$ chmod a+x file1.txt
+nivesh@nivesh-VirtualBox:~/assignment_1$ ls -l file1.txt
+-rwxrwxr-x 1 nivesh nivesh 0 Jan 29 21:20 file1.txt
+
