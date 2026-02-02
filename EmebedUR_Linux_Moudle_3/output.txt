@@ -1,0 +1,47 @@
+
+Test-1 :: Both the directory are present
+Command: ./backup_manager.sh "./dir1" "./dir2" "txt"
+
+The source directory path is: ./dir1
+The Destination direcotry path is: ./dir2
+The file type to be back up is: txt
+File name: file1.txt and file size: 15 bytes
+File name: file5.txt and file size: 10 bytes
+File name: file3.txt and file size: 29 bytes
+File name: file2.txt and file size: 18 bytes
+Total number of file is:4
+Skipped: file1.txt (backup is newer)
+Skipped: file2.txt (backup is newer)
+Skipped: file3.txt (backup is newer)
+Skipped: file5.txt (backup is newer)
+Backup completed successfully.
+Report saved at: ./dir2/backup_report.logecho Skipped: file5.txt (backup is already newer)
+
+Test-2 :: Scource directory is not created 
+Command: ./backup_manager.sh "./dir3" "./dir2" "txt"
+
+The source directory path is: ./dir3
+The Destination direcotry path is: ./dir2
+The file type to be back up is: txt
+No matching file in directory
+Exiting from program.....
+
+Test-3:: Destination direcotry is not created
+Command: ./backup_manager.sh "./dir1" "./dir4" "txt"
+
+The source directory path is: ./dir1
+The Destination direcotry path is: ./dir4
+The file type to be back up is: txt
+The directory is not exsist and creating the directory
+File name: file1.txt and file size: 15 bytes
+File name: file5.txt and file size: 10 bytes
+File name: file3.txt and file size: 29 bytes
+File name: file2.txt and file size: 18 bytes
+Total number of file is:4
+Copied: file1.txt
+Copied: file2.txt
+Copied: file3.txt
+Copied: file5.txt
+Backup completed successfully.
+Report saved at: ./dir4/backup_report.logecho Skipped: file5.txt (backup is already newer)
+
