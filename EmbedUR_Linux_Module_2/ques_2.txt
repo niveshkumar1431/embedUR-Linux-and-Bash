@@ -1,0 +1,2 @@
+nivesh@nivesh-VirtualBox:~/emUR/assessment_2$ cat /etc/hosts | sed 's/localhost/127.0.0.1/' > output_2.txt
+

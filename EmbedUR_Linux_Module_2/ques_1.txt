@@ -1,0 +1,1 @@
+nivesh@nivesh-VirtualBox:~/emUR/assessment_2$ ls -ls /var/log | awk '{if ($6>1000000) print $0}' > output.txt

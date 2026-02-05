@@ -1,0 +1,1 @@
+nivesh@nivesh-VirtualBox:~/emUR/assessment_2$ kill $(ps -aux --sort=-%mem | awk '{print $2}' | sed -n '2p')

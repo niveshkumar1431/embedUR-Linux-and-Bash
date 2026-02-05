@@ -1,0 +1,2 @@
+nivesh@nivesh-VirtualBox:~/emUR/assessment_2$ awk '$0 ~ /ERROR/' log.txt | sed '/DEBUG/d' > filtered_log.txt
+

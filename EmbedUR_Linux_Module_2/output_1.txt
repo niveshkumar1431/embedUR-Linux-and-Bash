@@ -1,0 +1,4 @@
+1200 -rw-r--r--  1 root              root            1222817 Jan 30 14:52 dpkg.log.1
+1096 -rw-r-----  1 syslog            adm             1120213 Feb 28  2026 kern.log.1
+1416 -rw-r-----  1 syslog            adm             1445740 Feb  4 14:10 syslog
+3548 -rw-r-----  1 syslog            adm             3629022 Feb 28  2026 syslog.1
