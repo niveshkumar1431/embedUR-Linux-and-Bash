@@ -1,9 +1,0 @@
-nivesh@nivesh-VirtualBox:~/assignment_1$ mkdir dirr1
-nivesh@nivesh-VirtualBox:~/assignment_1$ touch ./dirr1/file1.txt ./dirr1/file2.txt ./dirr1/file3.txt
-nivesh@nivesh-VirtualBox:~/assignment_1$ ls -lt dirr1>output.txt
-nivesh@nivesh-VirtualBox:~/assignment_1$ cat output.txt
-total 0
--rw-rw-r-- 1 nivesh nivesh 0 Jan 29 21:43 file1.txt
--rw-rw-r-- 1 nivesh nivesh 0 Jan 29 21:43 file2.txt
--rw-rw-r-- 1 nivesh nivesh 0 Jan 29 21:43 file3.txt
-

@@ -1,4 +1,0 @@
-nivesh@nivesh-VirtualBox:~/assignment_1$ ln -s ./dir1/dr2/target_file.txt ./dir1/slink_file.txt
-nivesh@nivesh-VirtualBox:~/assignment_1$ ls -l ./dir1/slink_file.txt
-lrwxrwxrwx 1 nivesh nivesh 26 Jan 29 21:31 ./dir1/slink_file.txt -> ./dir1/dr2/target_file.txt
-
