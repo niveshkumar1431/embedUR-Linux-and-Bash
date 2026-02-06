@@ -1,0 +1,8 @@
+Application started successfully
+Loading configuration file
+INFO: User login successful
+WARNING: Low disk space detected
+ERROR: Failed to connect to database
+INFO: Retrying connection
+Application terminated
+

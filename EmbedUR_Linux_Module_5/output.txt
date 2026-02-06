@@ -1,0 +1,50 @@
+Case-1 (When help command is given)
+
+USAGE:
+  file_analyzer.sh [OPTIONS]
+
+OPTIONS:
+  -d <directory>   Recursively search a directory
+  -f <file>        Search inside a file
+  -k <keyword>     Keyword to search (required)
+  --help           Show this help and exit
+
+
+
+Case-2 (Given a keyword to search in a file)
+
+DONE: completed
+
+Special parameters
+------------------------------------------------
+Script name: ./file_analyzer.sh
+The number of arguments is: 4
+The arguments passed: -f script.sh -k DONE
+Exit status: 0
+
+
+Case-3 (When a keyword is given to search in a directory )
+
+Keyword 'error' found in file: logs/app.log
+Keyword 'error' found in file: logs/sub/server.log
+
+Special parameters
+------------------------------------------------
+Script name: ./file_analyzer.sh
+The number of arguments is: 4
+The arguments passed: -d logs -k error
+Exit status: 0
+
+
+Case-4 (When invalid keyword provided)
+
+Error: Keyword is not valid
+
+
+Case-5 (When non existing directory is given)
+
+Error: Directory does not exist
+
+Case-6 (When argument is not given)
+
+Error: Option -d requires an argument
